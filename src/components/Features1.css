@@ -1,0 +1,97 @@
+.features1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 90px;
+    margin-top: 50px;
+}
+
+.features {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+    gap: 30px;
+}
+
+.editor-rmv {
+    display: none;
+}
+
+.features1 h1 {
+    text-align: center;
+    color: hsl(208, 49%, 24%);
+    font-weight: 400;
+    font-size: 28px;
+    margin-bottom: 15px;
+}
+
+.feat-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.feat-text h1 {
+    width: 60%;
+    margin-top: 20px;
+}
+
+.feat-text p {
+    color: hsl(206, 18%, 47%);
+    line-height: 31px;
+    font-weight: lighter;
+}
+
+.features-texts {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.editor-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.editor {
+    width: 70%;
+}
+
+@media screen and (min-width: 1100px) {
+
+    .features {
+        display: flex;
+        flex-direction: row-reverse;
+        width: 100%;
+        justify-content: flex-end;
+        margin-top: 40px;
+        justify-content: space-between;
+        margin-left: 300px;
+    }
+
+    .features-texts {
+        width: 100%;
+    }
+       
+    .feat-text h1 {
+        text-align: left;
+        width: 100%;
+    }
+
+    .feat-text p {
+       text-align: left;
+    }
+
+    .editor {
+        display: none; 
+    }
+
+    .editor-rmv {
+        display: flex;
+        width: 700px;
+    }
+}

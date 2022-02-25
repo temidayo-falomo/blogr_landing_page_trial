@@ -1,0 +1,96 @@
+.features3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 90px;
+}
+
+.features-3-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+    gap: 30px;
+}
+
+.editor-3-rmv {
+    display: none;
+}
+
+.features3 h1 {
+    text-align: center;
+    color: hsl(208, 49%, 24%);
+    font-weight: 400;
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.feat-text-3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.feat-text-3 h1 {
+    width: 60%;
+    margin-top: 20px;
+}
+
+.feat-text-3 p {
+    color: hsl(206, 18%, 47%);
+    line-height: 31px;
+    font-weight: lighter;
+}
+
+.features-3-texts {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.editor-3-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.editor-3 {
+    width: 100%;
+}
+
+@media screen and (min-width: 1100px) {
+
+    .features-3-container {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        justify-content: flex-end;
+        margin-top: 40px;
+        justify-content: space-between;
+        margin-right: 400px;
+    }
+
+    .features-3-texts {
+        width: 100%;
+    }
+       
+    .feat-text-3 h1 {
+        text-align: left;
+        width: 100%;
+    }
+
+    .feat-text-3 p {
+       text-align: left;
+    }
+
+    .editor-3 {
+        display: none; 
+    }
+
+    .editor-3-rmv {
+        display: flex;
+        width: 700px;
+    }
+}
