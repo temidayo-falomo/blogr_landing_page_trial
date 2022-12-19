@@ -17,6 +17,6 @@ allow {
   input.request_path = ["jkf", "fkjfe"]
   input.company = "Merrill Booker Trading"
   input.request_method = "UPDATE"
-  input.groupname = "EDITOR_AMBIENTE"
+  input.groupname = "ambiente-AsparmRaccoltaFarmaci-EDIT"
 }
 
