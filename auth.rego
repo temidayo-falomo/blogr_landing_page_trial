@@ -9,7 +9,7 @@ allow {
   input.request_path = ["v1", "collection"]
   input.company = "youtubemusic"
   input.request_method = "POST"
-  input.groupname = "TestGeocity"
+  input.groupname = "EDITOR_DPAU"
 }
 
 allow {
@@ -17,6 +17,6 @@ allow {
   input.request_path = ["jkf", "fkjfe"]
   input.company = "Merrill Booker Trading"
   input.request_method = "UPDATE"
-  input.groupname = "ambiente-AsparmRaccoltaFarmaci-EDIT"
+  input.groupname = "VIEWER"
 }
 
