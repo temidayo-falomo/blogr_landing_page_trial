@@ -9,7 +9,7 @@ allow {
   input.request_path = ["v1", "collection"]
   input.company = "youtubemusic"
   input.request_method = "POST"
-  input.groupname = "EDITOR_DPAU"
+  input.groupname = "TestGeocity"
 }
 
 allow {
